@@ -1,0 +1,108 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+.main-frame {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.up-part {
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.up-partA {
+    background-color: darkslategray;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.up-partA1 {
+    background-color: salmon;
+    flex: 1 1 auto;
+}
+
+.up-partA2 {
+    background-color: salmon;
+    flex: 5 1 auto;
+}
+
+.up-partA3 {
+    background-color: salmon;
+    flex: 1 1 auto;
+}
+
+.up-partB {
+    background-color: orangered;
+}
+
+.up-partB1 {
+    background-color: yellow;
+}
+
+.mid-part {
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.mid-partA {
+    background-color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 1 auto
+}
+
+.mid-partA1 {
+    background-color: blue;
+    flex: 1 1 40%;
+}
+
+.mid-partA2 {
+    background-color: blue;
+    flex: 1 1 40%;
+}
+
+.mid-partA3 {
+    background-color: blue;
+    flex: 1 1 40%;
+}
+
+.mid-partA4 {
+    background-color: blue;
+    flex: 1 1 40%;
+}
+
+.mid-partA5 {
+    background-color: lightseagreen;
+    flex: 1 1 100%;
+}
+
+.mid-partB {
+    background-color: darksalmon;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 auto;
+}
+
+.mid-partB1 {
+    background-color: yellow;
+}
+
+.mid-partB2 {
+    background-color: yellow;
+}
+
+.low-part {
+    background-color: black;
+    
+}
+
+.low-part-insert {
+    background-color: orange;
+}
