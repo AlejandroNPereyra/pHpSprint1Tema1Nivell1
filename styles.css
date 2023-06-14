@@ -106,3 +106,18 @@
 .low-part-insert {
     background-color: orange;
 }
+
+@media only screen and (max-width: 768px) {
+    .mid-part {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .up-partA {
+        flex-direction: column;
+    }
+    .mid-partA {
+        flex-direction: column;
+    }
+}
